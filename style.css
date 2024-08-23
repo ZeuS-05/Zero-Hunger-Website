@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5e1fedab6d6d853d5fbf8913/1608375694110-EH7EX91M33QSFT9U679M/48.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+header {
+    
+    display:flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 98%;
+}
+
+header h1 {
+    margin: 0;
+    margin-left: 1em;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display:flex;
+    margin-right: 1em
+    
+}
+
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    
+}
+
+nav ul li a:hover {
+    background-color: #ffffff5d;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.video{
+   
+    min-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+.content{
+
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contactus{
+
+    min-width: 1000px;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #6c2dd3d2;
+}
+
+.table-donate{
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+form input[type="submit"]:hover {
+    background-color: #6c2dd3d2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-section h2 {
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    
+}
+
+.gallery-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 200px;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.yt {
+    position: relative; 
+    display: block; 
+    width: 90%; 
+    height: 0; 
+    margin: auto; 
+    padding: 0% 0% 56.25%; 
+    overflow: hidden; 
+  }
+  
+  .yt iframe {
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    border: 0; 
+  }
+  
+  
+
+
